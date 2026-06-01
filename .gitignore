@@ -5,3 +5,7 @@ dist/
 .env
 .claude/
 *.log
+scrobblervari/data/lastfm-session.json
+scrobblervari/data/lastfm-cookies.json
+scrobblervari/data/spotify-token.json
+scrobblervari/data/*.json
