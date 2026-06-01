@@ -1,0 +1,99 @@
+[
+  {
+    "type": "artist",
+    "artist": "Lono",
+    "source": "manual",
+    "id": "e4682e9d-972a-42ec-9b8c-c5046365bc15",
+    "addedAt": "2026-05-29T10:43:44.960Z",
+    "lastScannedAt": "2026-05-29T13:28:25.509Z"
+  },
+  {
+    "type": "artist",
+    "artist": "Rola Young",
+    "source": "manual",
+    "id": "cb162854-bebf-4426-b7c4-4242da9cd56c",
+    "addedAt": "2026-05-29T10:44:02.262Z",
+    "lastScannedAt": "2026-05-29T13:28:25.509Z"
+  },
+  {
+    "type": "artist",
+    "artist": "Friede",
+    "source": "manual",
+    "id": "d60bebbd-3814-4d1f-9821-cf8721304b6f",
+    "addedAt": "2026-05-29T10:44:28.452Z",
+    "lastScannedAt": "2026-05-29T13:28:25.509Z"
+  },
+  {
+    "type": "artist",
+    "artist": "Dan Kraus",
+    "source": "manual",
+    "id": "a51e0b34-8a48-4ed0-99f1-b63f59d30ce7",
+    "addedAt": "2026-05-29T10:45:03.103Z",
+    "lastScannedAt": "2026-05-29T13:28:25.509Z"
+  },
+  {
+    "type": "artist",
+    "artist": "Paco",
+    "source": "manual",
+    "id": "e3413562-e785-4f54-b75b-34f753607a9b",
+    "addedAt": "2026-05-29T10:45:16.970Z",
+    "lastScannedAt": "2026-05-29T13:28:25.509Z"
+  },
+  {
+    "type": "artist",
+    "artist": "Patrick Bruel",
+    "source": "manual",
+    "id": "479f9255-8d37-4ae1-b056-398f6ddc5e81",
+    "addedAt": "2026-05-29T12:31:40.067Z",
+    "lastScannedAt": "2026-05-29T13:28:25.509Z"
+  },
+  {
+    "type": "artist",
+    "artist": "GabrielGeoo",
+    "source": "manual",
+    "id": "e3af61ee-05b1-4ed2-acd6-8736d8c7af70",
+    "addedAt": "2026-05-29T13:44:35.316Z"
+  },
+  {
+    "type": "artist",
+    "artist": "nateflix",
+    "source": "manual",
+    "id": "279fa93a-9f98-4e0e-b586-6f97e2d0f728",
+    "addedAt": "2026-05-29T13:45:25.677Z"
+  },
+  {
+    "type": "artist",
+    "artist": "Fiouze",
+    "source": "manual",
+    "id": "df435e20-c180-4be0-9372-f787f1457846",
+    "addedAt": "2026-05-29T13:49:35.635Z"
+  },
+  {
+    "type": "artist",
+    "artist": "Noir Désir",
+    "source": "manual",
+    "id": "2c7a86fe-165d-4cb2-8d8a-f9cc89b68d62",
+    "addedAt": "2026-05-29T14:01:55.888Z"
+  },
+  {
+    "type": "artist",
+    "artist": "Noir Desir",
+    "source": "manual",
+    "id": "337ad40f-16ac-449f-b6ca-79389e7e129b",
+    "addedAt": "2026-05-29T14:02:07.897Z"
+  },
+  {
+    "type": "artist",
+    "artist": "Underscore_",
+    "source": "manual",
+    "id": "f8307105-2f25-440f-b8ff-01b3657362b7",
+    "addedAt": "2026-05-29T15:08:14.068Z"
+  },
+  {
+    "type": "artist",
+    "artist": "Underscore",
+    "source": "manual",
+    "id": "afba3476-ca37-4b6f-a386-e00bdb09e946",
+    "addedAt": "2026-05-29T15:08:22.715Z"
+  }
+]

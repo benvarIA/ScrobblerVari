@@ -1,0 +1,4073 @@
+[
+  {
+    "date": "2026-06-01T04:00:00.818Z",
+    "total": 190,
+    "ok": 190,
+    "results": [
+      {
+        "artist": "Dan Kraus",
+        "title": "Murmur",
+        "action": "unloved",
+        "ts": 1780286403741,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "To The Sun",
+        "action": "unloved",
+        "ts": 1780286403924,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Serene Waterfalls",
+        "action": "unloved",
+        "ts": 1780286404119,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Wandering Souls",
+        "action": "unloved",
+        "ts": 1780286404300,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Let Go",
+        "action": "unloved",
+        "ts": 1780286404510,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Safe Haven",
+        "action": "unloved",
+        "ts": 1780286404660,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Evoke Calmness",
+        "action": "unloved",
+        "ts": 1780286404852,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Equanimity",
+        "action": "unloved",
+        "ts": 1780286405054,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Echoes of the Moon",
+        "action": "unloved",
+        "ts": 1780286405221,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Peaceful Heart",
+        "action": "unloved",
+        "ts": 1780286405806,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Spiritual Path",
+        "action": "unloved",
+        "ts": 1780286405985,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Attraction",
+        "action": "unloved",
+        "ts": 1780286406177,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Izmir",
+        "action": "unloved",
+        "ts": 1780286406346,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Surge",
+        "action": "unloved",
+        "ts": 1780286406506,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Giving Love",
+        "action": "unloved",
+        "ts": 1780286406760,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Universe In Harmony",
+        "action": "unloved",
+        "ts": 1780286406940,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Awakening Intuition",
+        "action": "unloved",
+        "ts": 1780286407114,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "The Beauty Of Rest",
+        "action": "unloved",
+        "ts": 1780286407767,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Balancing Emotion",
+        "action": "unloved",
+        "ts": 1780286407918,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Shimmering Dust",
+        "action": "unloved",
+        "ts": 1780286408093,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Forest Echoes",
+        "action": "unloved",
+        "ts": 1780286408255,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Unfolding Peace",
+        "action": "unloved",
+        "ts": 1780286408410,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Enhance Sleep",
+        "action": "unloved",
+        "ts": 1780286408585,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Embrace",
+        "action": "unloved",
+        "ts": 1780286408741,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Infinite Rest",
+        "action": "unloved",
+        "ts": 1780286408896,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Comfort In Silence",
+        "action": "unloved",
+        "ts": 1780286409105,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Eternal Starlight",
+        "action": "unloved",
+        "ts": 1780286409266,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Sacred Space",
+        "action": "unloved",
+        "ts": 1780286409415,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Look Up",
+        "action": "unloved",
+        "ts": 1780286409573,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Waves of Tranquility",
+        "action": "unloved",
+        "ts": 1780286409748,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Pillow Of Stars",
+        "action": "unloved",
+        "ts": 1780286409928,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Whispering Pines",
+        "action": "unloved",
+        "ts": 1780286410091,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Waves of Calm",
+        "action": "unloved",
+        "ts": 1780286410280,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Let go of Time",
+        "action": "unloved",
+        "ts": 1780286410422,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Urban Life",
+        "action": "unloved",
+        "ts": 1780286410587,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Reflecting",
+        "action": "unloved",
+        "ts": 1780286410734,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Develop Rituals",
+        "action": "unloved",
+        "ts": 1780286410894,
+        "ok": true
+      },
+      {
+        "artist": "Lono",
+        "title": "In a Cave",
+        "action": "unloved",
+        "ts": 1780286411103,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Eternal Cycle",
+        "action": "unloved",
+        "ts": 1780286411464,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Quiet The Mind",
+        "action": "unloved",
+        "ts": 1780286411632,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Organization",
+        "action": "unloved",
+        "ts": 1780286411799,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Morning Ritual",
+        "action": "unloved",
+        "ts": 1780286411960,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Cascade",
+        "action": "unloved",
+        "ts": 1780286412110,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Tough to Break",
+        "action": "unloved",
+        "ts": 1780286412261,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Restoration",
+        "action": "unloved",
+        "ts": 1780286412429,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Optimism",
+        "action": "unloved",
+        "ts": 1780286412582,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Cosmic Serenity",
+        "action": "unloved",
+        "ts": 1780286412740,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Deep Space",
+        "action": "unloved",
+        "ts": 1780286412891,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Peace",
+        "action": "unloved",
+        "ts": 1780286413047,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Changing Tides",
+        "action": "unloved",
+        "ts": 1780286413220,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Listening",
+        "action": "unloved",
+        "ts": 1780286413369,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Journaling",
+        "action": "unloved",
+        "ts": 1780286413629,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Supernatural",
+        "action": "unloved",
+        "ts": 1780286413833,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Understanding",
+        "action": "unloved",
+        "ts": 1780286413984,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Motion",
+        "action": "unloved",
+        "ts": 1780286414130,
+        "ok": true
+      },
+      {
+        "artist": "Lono",
+        "title": "Walls of Reflection",
+        "action": "unloved",
+        "ts": 1780286414277,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Simplicity",
+        "action": "unloved",
+        "ts": 1780286414424,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Restful Choir",
+        "action": "unloved",
+        "ts": 1780286414567,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Calm",
+        "action": "unloved",
+        "ts": 1780286414724,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Whispers Of The Sea",
+        "action": "unloved",
+        "ts": 1780286414869,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Opening Heart",
+        "action": "unloved",
+        "ts": 1780286415025,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Self-Awareness",
+        "action": "unloved",
+        "ts": 1780286415194,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Deep Connections",
+        "action": "unloved",
+        "ts": 1780286415345,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Try",
+        "action": "unloved",
+        "ts": 1780286415514,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Love",
+        "action": "unloved",
+        "ts": 1780286415660,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Ashes of the Night",
+        "action": "unloved",
+        "ts": 1780286415812,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Delicate Night",
+        "action": "unloved",
+        "ts": 1780286415996,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Stargaze",
+        "action": "unloved",
+        "ts": 1780286416186,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Fact Or Fiction",
+        "action": "unloved",
+        "ts": 1780286416365,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Self-Compassion",
+        "action": "unloved",
+        "ts": 1780286416522,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Evolution",
+        "action": "unloved",
+        "ts": 1780286416672,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Floating In Harmony",
+        "action": "unloved",
+        "ts": 1780286416820,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Floating in Starlight",
+        "action": "unloved",
+        "ts": 1780286417038,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Healing",
+        "action": "unloved",
+        "ts": 1780286417179,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Winter",
+        "action": "unloved",
+        "ts": 1780286417354,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Equal Attention",
+        "action": "unloved",
+        "ts": 1780286418113,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Ethereal Tides",
+        "action": "unloved",
+        "ts": 1780286418278,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Reverie",
+        "action": "unloved",
+        "ts": 1780286418420,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Academic Success",
+        "action": "unloved",
+        "ts": 1780286418565,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Personal Growth",
+        "action": "unloved",
+        "ts": 1780286418736,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Make Your Case",
+        "action": "unloved",
+        "ts": 1780286418894,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Intuitive Problem Solving",
+        "action": "unloved",
+        "ts": 1780286419063,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Laws of Nature",
+        "action": "unloved",
+        "ts": 1780286419210,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Practice Acceptance",
+        "action": "unloved",
+        "ts": 1780286419390,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Nesting",
+        "action": "unloved",
+        "ts": 1780286419542,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Kindness",
+        "action": "unloved",
+        "ts": 1780286419691,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Never Leaving",
+        "action": "unloved",
+        "ts": 1780286419848,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Loving-Kindness",
+        "action": "unloved",
+        "ts": 1780286420000,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Galactic Dreams",
+        "action": "unloved",
+        "ts": 1780286420152,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Looking Within",
+        "action": "unloved",
+        "ts": 1780286420318,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "A Reason",
+        "action": "unloved",
+        "ts": 1780286420471,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Ripples of Tranquillity",
+        "action": "unloved",
+        "ts": 1780286420660,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Dreaming by the Fire",
+        "action": "unloved",
+        "ts": 1780286420831,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Fragments",
+        "action": "unloved",
+        "ts": 1780286421309,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Deep Stillness",
+        "action": "unloved",
+        "ts": 1780286421451,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Ease In",
+        "action": "unloved",
+        "ts": 1780286421620,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Submerged",
+        "action": "unloved",
+        "ts": 1780286421770,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Boundaries of Peace",
+        "action": "unloved",
+        "ts": 1780286421947,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "A Place to Stay",
+        "action": "unloved",
+        "ts": 1780286422091,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Comfort In Silence",
+        "action": "unloved",
+        "ts": 1780286422283,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Silence",
+        "action": "unloved",
+        "ts": 1780286422446,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Far From Home",
+        "action": "unloved",
+        "ts": 1780286422589,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Falling Through Time",
+        "action": "unloved",
+        "ts": 1780286422736,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Echoes in the Wind",
+        "action": "unloved",
+        "ts": 1780286422903,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "The Anxious Mind",
+        "action": "unloved",
+        "ts": 1780286423053,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Tranquility",
+        "action": "unloved",
+        "ts": 1780286423225,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Self-Improvement",
+        "action": "unloved",
+        "ts": 1780286423398,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Echoes Of The Night",
+        "action": "unloved",
+        "ts": 1780286423570,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Conflict Resolution",
+        "action": "unloved",
+        "ts": 1780286423723,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "The Spirit Molecule",
+        "action": "unloved",
+        "ts": 1780286423869,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Fluttering",
+        "action": "unloved",
+        "ts": 1780286424013,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Blue World",
+        "action": "unloved",
+        "ts": 1780286424313,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Dancing Dreams",
+        "action": "unloved",
+        "ts": 1780286424633,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Relaxation",
+        "action": "unloved",
+        "ts": 1780286424780,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Meditation",
+        "action": "unloved",
+        "ts": 1780286424926,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "A Beautiful Night",
+        "action": "unloved",
+        "ts": 1780286425082,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Stable Mind",
+        "action": "unloved",
+        "ts": 1780286425270,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Awaken Your Spiritual Self",
+        "action": "unloved",
+        "ts": 1780286425433,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "The Calm War",
+        "action": "unloved",
+        "ts": 1780286425750,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Receiving Love",
+        "action": "unloved",
+        "ts": 1780286425962,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Equinox",
+        "action": "unloved",
+        "ts": 1780286426146,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "The 7th Quadrant",
+        "action": "unloved",
+        "ts": 1780286426303,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Celestial Shores",
+        "action": "unloved",
+        "ts": 1780286426559,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Stress Relief",
+        "action": "unloved",
+        "ts": 1780286426701,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Finding Joy",
+        "action": "unloved",
+        "ts": 1780286426860,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Nurturing",
+        "action": "unloved",
+        "ts": 1780286427017,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Aurora Waves",
+        "action": "unloved",
+        "ts": 1780286427379,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Rise with the Sun",
+        "action": "unloved",
+        "ts": 1780286427567,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Orion’s Glow",
+        "action": "unloved",
+        "ts": 1780286427726,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Lull",
+        "action": "unloved",
+        "ts": 1780286427913,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Inner Body Symphony",
+        "action": "unloved",
+        "ts": 1780286428077,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Ground",
+        "action": "unloved",
+        "ts": 1780286428366,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Happiness",
+        "action": "unloved",
+        "ts": 1780286428509,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Silent Twilight",
+        "action": "unloved",
+        "ts": 1780286428753,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Harmonic Stars",
+        "action": "unloved",
+        "ts": 1780286428919,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Between Thoughts",
+        "action": "unloved",
+        "ts": 1780286429070,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Healing Exchange",
+        "action": "unloved",
+        "ts": 1780286429241,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Foundation",
+        "action": "unloved",
+        "ts": 1780286429387,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Gravity Slows",
+        "action": "unloved",
+        "ts": 1780286429606,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Clutter",
+        "action": "unloved",
+        "ts": 1780286429784,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Breeze",
+        "action": "unloved",
+        "ts": 1780286429937,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Infinite Now",
+        "action": "unloved",
+        "ts": 1780286430108,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Journey",
+        "action": "unloved",
+        "ts": 1780286430294,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Delirious Gardens",
+        "action": "unloved",
+        "ts": 1780286430445,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Light as Air",
+        "action": "unloved",
+        "ts": 1780286430647,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Open Mind",
+        "action": "unloved",
+        "ts": 1780286430820,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Be Kind",
+        "action": "unloved",
+        "ts": 1780286430971,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Positive Affirmations",
+        "action": "unloved",
+        "ts": 1780286431133,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Fading Dreams",
+        "action": "unloved",
+        "ts": 1780286431307,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Soft Currents",
+        "action": "unloved",
+        "ts": 1780286431478,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Flowing",
+        "action": "unloved",
+        "ts": 1780286431622,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "One Fell Swoop",
+        "action": "unloved",
+        "ts": 1780286431766,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Fear of Silence",
+        "action": "unloved",
+        "ts": 1780286431921,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Enchanted Stillness",
+        "action": "unloved",
+        "ts": 1780286432073,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Scheduling Me Time",
+        "action": "unloved",
+        "ts": 1780286432219,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Loving Tones",
+        "action": "unloved",
+        "ts": 1780286432369,
+        "ok": true
+      },
+      {
+        "artist": "Lono",
+        "title": "Believe Me",
+        "action": "unloved",
+        "ts": 1780286432514,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Hush",
+        "action": "unloved",
+        "ts": 1780286432669,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Turn",
+        "action": "unloved",
+        "ts": 1780286432819,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Wrapped In Serenity",
+        "action": "unloved",
+        "ts": 1780286433000,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Midnight Glimmer",
+        "action": "unloved",
+        "ts": 1780286433179,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Cloud Drifting",
+        "action": "unloved",
+        "ts": 1780286433336,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Breathe to Heal",
+        "action": "unloved",
+        "ts": 1780286433484,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Surrender to What is",
+        "action": "unloved",
+        "ts": 1780286433667,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Neptune's Lullaby",
+        "action": "unloved",
+        "ts": 1780286433824,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Serene Aurora",
+        "action": "unloved",
+        "ts": 1780286433984,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Happiness",
+        "action": "unloved",
+        "ts": 1780286434136,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Twilight Touch",
+        "action": "unloved",
+        "ts": 1780286434315,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Settling",
+        "action": "unloved",
+        "ts": 1780286434498,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Rejuvenation",
+        "action": "unloved",
+        "ts": 1780286434660,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Undying",
+        "action": "unloved",
+        "ts": 1780286434825,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "River",
+        "action": "unloved",
+        "ts": 1780286434986,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Mental Fortitude",
+        "action": "unloved",
+        "ts": 1780286435141,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Subtlety",
+        "action": "unloved",
+        "ts": 1780286435291,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Welcome Feedback",
+        "action": "unloved",
+        "ts": 1780286435469,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Positivity",
+        "action": "unloved",
+        "ts": 1780286435619,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Growth Mindset",
+        "action": "unloved",
+        "ts": 1780286435775,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Channeling Within",
+        "action": "unloved",
+        "ts": 1780286435971,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "PROLOGUE",
+        "action": "unloved",
+        "ts": 1780286436127,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "Intro",
+        "action": "unloved",
+        "ts": 1780286436359,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "Intro",
+        "action": "unloved",
+        "ts": 1780286436656,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Clarity",
+        "action": "unloved",
+        "ts": 1780286436814,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "2016",
+        "action": "unloved",
+        "ts": 1780286436969,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "2005",
+        "action": "unloved",
+        "ts": 1780286437114,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "2002",
+        "action": "unloved",
+        "ts": 1780286437297,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1999",
+        "action": "unloved",
+        "ts": 1780286437453,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1992",
+        "action": "unloved",
+        "ts": 1780286437596,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1976",
+        "action": "unloved",
+        "ts": 1780286437742,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1975",
+        "action": "unloved",
+        "ts": 1780286437884,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "Intro",
+        "action": "unloved",
+        "ts": 1780286438052,
+        "ok": true
+      }
+    ]
+  },
+  {
+    "date": "2026-05-31T22:00:00.493Z",
+    "total": 11,
+    "ok": 11,
+    "results": [
+      {
+        "artist": "nateflix",
+        "title": "PROLOGUE",
+        "action": "unloved",
+        "ts": 1780264803537,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "Intro",
+        "action": "unloved",
+        "ts": 1780264803884,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "Intro",
+        "action": "unloved",
+        "ts": 1780264804090,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "2016",
+        "action": "unloved",
+        "ts": 1780264805689,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "2005",
+        "action": "unloved",
+        "ts": 1780264805851,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "2002",
+        "action": "unloved",
+        "ts": 1780264806058,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1999",
+        "action": "unloved",
+        "ts": 1780264806244,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1992",
+        "action": "unloved",
+        "ts": 1780264806418,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1976",
+        "action": "unloved",
+        "ts": 1780264806663,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1975",
+        "action": "unloved",
+        "ts": 1780264806839,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "Intro",
+        "action": "unloved",
+        "ts": 1780264806998,
+        "ok": true
+      }
+    ]
+  },
+  {
+    "date": "2026-05-31T16:00:01.186Z",
+    "total": 8,
+    "ok": 8,
+    "results": [
+      {
+        "artist": "nateflix",
+        "title": "2016",
+        "action": "unloved",
+        "ts": 1780243204955,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "2005",
+        "action": "unloved",
+        "ts": 1780243205123,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "2002",
+        "action": "unloved",
+        "ts": 1780243205293,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1999",
+        "action": "unloved",
+        "ts": 1780243205598,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1992",
+        "action": "unloved",
+        "ts": 1780243205985,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1976",
+        "action": "unloved",
+        "ts": 1780243206201,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1975",
+        "action": "unloved",
+        "ts": 1780243206544,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "Intro",
+        "action": "unloved",
+        "ts": 1780243206705,
+        "ok": true
+      }
+    ]
+  },
+  {
+    "date": "2026-05-31T10:00:00.797Z",
+    "total": 8,
+    "ok": 8,
+    "results": [
+      {
+        "artist": "nateflix",
+        "title": "2016",
+        "action": "unloved",
+        "ts": 1780221603783,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "2005",
+        "action": "unloved",
+        "ts": 1780221603973,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "2002",
+        "action": "unloved",
+        "ts": 1780221604174,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1999",
+        "action": "unloved",
+        "ts": 1780221604371,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1992",
+        "action": "unloved",
+        "ts": 1780221604590,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1976",
+        "action": "unloved",
+        "ts": 1780221604771,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1975",
+        "action": "unloved",
+        "ts": 1780221605075,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "Intro",
+        "action": "unloved",
+        "ts": 1780221605257,
+        "ok": true
+      }
+    ]
+  },
+  {
+    "date": "2026-05-31T04:00:00.718Z",
+    "total": 127,
+    "ok": 127,
+    "results": [
+      {
+        "artist": "Dan Kraus",
+        "title": "Alertness",
+        "action": "unloved",
+        "ts": 1780200004018,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Path of Presence",
+        "action": "unloved",
+        "ts": 1780200004237,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Dreaming Beyond",
+        "action": "unloved",
+        "ts": 1780200004394,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Evoke Tranquility",
+        "action": "unloved",
+        "ts": 1780200004550,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Transcend",
+        "action": "unloved",
+        "ts": 1780200004722,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Thriving",
+        "action": "unloved",
+        "ts": 1780200004893,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Celestial Rain",
+        "action": "unloved",
+        "ts": 1780200005070,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Waxing And Waning",
+        "action": "unloved",
+        "ts": 1780200005232,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Mental Clarity",
+        "action": "unloved",
+        "ts": 1780200005405,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Practice Development",
+        "action": "unloved",
+        "ts": 1780200005665,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Zen Horizon",
+        "action": "unloved",
+        "ts": 1780200005836,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Meditation",
+        "action": "unloved",
+        "ts": 1780200006171,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Crystal Reflections",
+        "action": "unloved",
+        "ts": 1780200006321,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "The Beauty of Life",
+        "action": "unloved",
+        "ts": 1780200006484,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Journey",
+        "action": "unloved",
+        "ts": 1780200006702,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Letting Go",
+        "action": "unloved",
+        "ts": 1780200006868,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "In the Abyss",
+        "action": "unloved",
+        "ts": 1780200007041,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Calm Waves",
+        "action": "unloved",
+        "ts": 1780200007198,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Soft Raindrops",
+        "action": "unloved",
+        "ts": 1780200007348,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Hymns of Melatonin",
+        "action": "unloved",
+        "ts": 1780200007497,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Connecting Relationships",
+        "action": "unloved",
+        "ts": 1780200007650,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Raindrops",
+        "action": "unloved",
+        "ts": 1780200007817,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Loving Tenderness",
+        "action": "unloved",
+        "ts": 1780200007967,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Floating in Stillness",
+        "action": "unloved",
+        "ts": 1780200008180,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Worthy",
+        "action": "unloved",
+        "ts": 1780200008431,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Contemplation",
+        "action": "unloved",
+        "ts": 1780200008658,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Composer",
+        "action": "unloved",
+        "ts": 1780200008817,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Mountain Mist",
+        "action": "unloved",
+        "ts": 1780200008993,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Good Faith",
+        "action": "unloved",
+        "ts": 1780200009147,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Vitality",
+        "action": "unloved",
+        "ts": 1780200009293,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Awakening Intuition",
+        "action": "unloved",
+        "ts": 1780200009469,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Grow",
+        "action": "unloved",
+        "ts": 1780200009622,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Open Heart, Clear Mind",
+        "action": "unloved",
+        "ts": 1780200009856,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Evoke Peace",
+        "action": "unloved",
+        "ts": 1780200010151,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Heightened Awareness",
+        "action": "unloved",
+        "ts": 1780200010300,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Forgive Yourself",
+        "action": "unloved",
+        "ts": 1780200010550,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Alertness",
+        "action": "unloved",
+        "ts": 1780200010762,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Comfort",
+        "action": "unloved",
+        "ts": 1780200010969,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "New Interests",
+        "action": "unloved",
+        "ts": 1780200011137,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Feather",
+        "action": "unloved",
+        "ts": 1780200011296,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Sound On",
+        "action": "unloved",
+        "ts": 1780200011461,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Bound",
+        "action": "unloved",
+        "ts": 1780200011647,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Limit Comparison",
+        "action": "unloved",
+        "ts": 1780200011811,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Wakefulness",
+        "action": "unloved",
+        "ts": 1780200011958,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Visionary Beauty",
+        "action": "unloved",
+        "ts": 1780200012181,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Nights End",
+        "action": "unloved",
+        "ts": 1780200012327,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Pure Silence",
+        "action": "unloved",
+        "ts": 1780200012493,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Visualization",
+        "action": "unloved",
+        "ts": 1780200012655,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Centered",
+        "action": "unloved",
+        "ts": 1780200012804,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Softest Touch",
+        "action": "unloved",
+        "ts": 1780200012987,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Balancing Emotion",
+        "action": "unloved",
+        "ts": 1780200013173,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Birds",
+        "action": "unloved",
+        "ts": 1780200013368,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Wistful",
+        "action": "unloved",
+        "ts": 1780200013522,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Moonlit",
+        "action": "unloved",
+        "ts": 1780200013701,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Resilience",
+        "action": "unloved",
+        "ts": 1780200013841,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Rejuvenation",
+        "action": "unloved",
+        "ts": 1780200014050,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Inner-Harmony",
+        "action": "unloved",
+        "ts": 1780200014191,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Desert Moonlight",
+        "action": "unloved",
+        "ts": 1780200014351,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Aurora Veil",
+        "action": "unloved",
+        "ts": 1780200014710,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Surreality",
+        "action": "unloved",
+        "ts": 1780200015016,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Profound Changes",
+        "action": "unloved",
+        "ts": 1780200015201,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Serenity",
+        "action": "unloved",
+        "ts": 1780200015381,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Bloom",
+        "action": "unloved",
+        "ts": 1780200015562,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Insomnia Protection",
+        "action": "unloved",
+        "ts": 1780200015710,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Cloud",
+        "action": "unloved",
+        "ts": 1780200015854,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Distance",
+        "action": "unloved",
+        "ts": 1780200016021,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Solution",
+        "action": "unloved",
+        "ts": 1780200016170,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Age of Comfort",
+        "action": "unloved",
+        "ts": 1780200016362,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Creativity",
+        "action": "unloved",
+        "ts": 1780200016520,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Ballooning",
+        "action": "unloved",
+        "ts": 1780200016705,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Always With Me",
+        "action": "unloved",
+        "ts": 1780200016885,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Inner Compass",
+        "action": "unloved",
+        "ts": 1780200017029,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Embodiment",
+        "action": "unloved",
+        "ts": 1780200017186,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Replenishing Energy",
+        "action": "unloved",
+        "ts": 1780200017361,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Confidence",
+        "action": "unloved",
+        "ts": 1780200017535,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Twilight's Call",
+        "action": "unloved",
+        "ts": 1780200017692,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "The Way Of Peace",
+        "action": "unloved",
+        "ts": 1780200018553,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Nightfall",
+        "action": "unloved",
+        "ts": 1780200018867,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Trauma Healing",
+        "action": "unloved",
+        "ts": 1780200019006,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Dissociation",
+        "action": "unloved",
+        "ts": 1780200019156,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Self-Love",
+        "action": "unloved",
+        "ts": 1780200019325,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Creating Boundaries",
+        "action": "unloved",
+        "ts": 1780200019588,
+        "ok": true
+      },
+      {
+        "artist": "Lono",
+        "title": "Unfathomable",
+        "action": "unloved",
+        "ts": 1780200019779,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Melodies of Healing",
+        "action": "unloved",
+        "ts": 1780200019939,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Sound of Nebulas",
+        "action": "unloved",
+        "ts": 1780200020112,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Renewal",
+        "action": "unloved",
+        "ts": 1780200020275,
+        "ok": true
+      },
+      {
+        "artist": "Lono",
+        "title": "I Do",
+        "action": "unloved",
+        "ts": 1780200020456,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Healing Soul",
+        "action": "unloved",
+        "ts": 1780200020629,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Tranquil Being",
+        "action": "unloved",
+        "ts": 1780200020785,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Practice Deep Breathing",
+        "action": "unloved",
+        "ts": 1780200021028,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Fair Forward",
+        "action": "unloved",
+        "ts": 1780200021254,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Evoke",
+        "action": "unloved",
+        "ts": 1780200021428,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Withstanding Pressure",
+        "action": "unloved",
+        "ts": 1780200021581,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Sleeping Among the Stars",
+        "action": "unloved",
+        "ts": 1780200021741,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Leadership",
+        "action": "unloved",
+        "ts": 1780200022014,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Long Embrace",
+        "action": "unloved",
+        "ts": 1780200022164,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Minimalism",
+        "action": "unloved",
+        "ts": 1780200022321,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Gentle",
+        "action": "unloved",
+        "ts": 1780200022614,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Currents",
+        "action": "unloved",
+        "ts": 1780200022842,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Navigating Transitions",
+        "action": "unloved",
+        "ts": 1780200022992,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Expansion",
+        "action": "unloved",
+        "ts": 1780200023152,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Leisure Time",
+        "action": "unloved",
+        "ts": 1780200023462,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Cloud Watching",
+        "action": "unloved",
+        "ts": 1780200023621,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Maintain a Sense of Humour",
+        "action": "unloved",
+        "ts": 1780200023828,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Brain Power",
+        "action": "unloved",
+        "ts": 1780200023981,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Vulnerability",
+        "action": "unloved",
+        "ts": 1780200024131,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Into Twilight",
+        "action": "unloved",
+        "ts": 1780200024287,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "The Quiet Within",
+        "action": "unloved",
+        "ts": 1780200024488,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Midnight Tears",
+        "action": "unloved",
+        "ts": 1780200024704,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Ever So",
+        "action": "unloved",
+        "ts": 1780200024877,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Throes of Darkness",
+        "action": "unloved",
+        "ts": 1780200025025,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Pathways",
+        "action": "unloved",
+        "ts": 1780200025295,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Nomad",
+        "action": "unloved",
+        "ts": 1780200025447,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Spiritual Order",
+        "action": "unloved",
+        "ts": 1780200025613,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Solace",
+        "action": "unloved",
+        "ts": 1780200025767,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Stress Relief",
+        "action": "unloved",
+        "ts": 1780200025911,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Recovery",
+        "action": "unloved",
+        "ts": 1780200026068,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Sharing Time",
+        "action": "unloved",
+        "ts": 1780200026829,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "2016",
+        "action": "unloved",
+        "ts": 1780200026996,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "2005",
+        "action": "unloved",
+        "ts": 1780200027159,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "2002",
+        "action": "unloved",
+        "ts": 1780200027327,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1999",
+        "action": "unloved",
+        "ts": 1780200027476,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1992",
+        "action": "unloved",
+        "ts": 1780200027642,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1976",
+        "action": "unloved",
+        "ts": 1780200027783,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "1975",
+        "action": "unloved",
+        "ts": 1780200027930,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "Intro",
+        "action": "unloved",
+        "ts": 1780200028121,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Happy Hormones",
+        "action": "unloved",
+        "ts": 1780200028278,
+        "ok": true
+      }
+    ]
+  },
+  {
+    "date": "2026-05-30T22:00:01.261Z",
+    "total": 2,
+    "ok": 2,
+    "results": [
+      {
+        "artist": "nateflix",
+        "title": "1975",
+        "action": "unloved",
+        "ts": 1780178404371,
+        "ok": true
+      },
+      {
+        "artist": "nateflix",
+        "title": "Intro",
+        "action": "unloved",
+        "ts": 1780178404527,
+        "ok": true
+      }
+    ]
+  },
+  {
+    "date": "2026-05-30T16:00:01.238Z",
+    "total": 0,
+    "ok": 0,
+    "results": []
+  },
+  {
+    "date": "2026-05-30T10:00:00.685Z",
+    "total": 0,
+    "ok": 0,
+    "results": []
+  },
+  {
+    "date": "2026-05-30T04:00:01.273Z",
+    "total": 195,
+    "ok": 195,
+    "results": [
+      {
+        "artist": "Rola Young",
+        "title": "Unfinished Slumber",
+        "action": "unloved",
+        "ts": 1780113603862,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Mind and Body",
+        "action": "unloved",
+        "ts": 1780113604033,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Ripple",
+        "action": "unloved",
+        "ts": 1780113604194,
+        "ok": true
+      },
+      {
+        "artist": "Lono",
+        "title": "My Heart",
+        "action": "unloved",
+        "ts": 1780113604354,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Spiritual Order",
+        "action": "unloved",
+        "ts": 1780113604585,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Inner Horizon",
+        "action": "unloved",
+        "ts": 1780113604750,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Caress",
+        "action": "unloved",
+        "ts": 1780113604914,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Passion and Purpose",
+        "action": "unloved",
+        "ts": 1780113605216,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Grace in Flow",
+        "action": "unloved",
+        "ts": 1780113605414,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Flow State",
+        "action": "unloved",
+        "ts": 1780113605581,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Mountains",
+        "action": "unloved",
+        "ts": 1780113605820,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Defining Oneself",
+        "action": "unloved",
+        "ts": 1780113605992,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Prioritising Rest",
+        "action": "unloved",
+        "ts": 1780113606546,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "A Moment In Time",
+        "action": "unloved",
+        "ts": 1780113606707,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Silent Illumination",
+        "action": "unloved",
+        "ts": 1780113606871,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Cradle Of The Cosmos",
+        "action": "unloved",
+        "ts": 1780113607040,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Thankful",
+        "action": "unloved",
+        "ts": 1780113607814,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Everlasting Glow",
+        "action": "unloved",
+        "ts": 1780113607968,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Velvet Cosmos",
+        "action": "unloved",
+        "ts": 1780113608130,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Pristine Waves",
+        "action": "unloved",
+        "ts": 1780113608289,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Mindset",
+        "action": "unloved",
+        "ts": 1780113608468,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Distant Stars",
+        "action": "unloved",
+        "ts": 1780113608659,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Ethereal Embrace",
+        "action": "unloved",
+        "ts": 1780113608810,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Second Chances",
+        "action": "unloved",
+        "ts": 1780113608986,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Self-Esteem",
+        "action": "unloved",
+        "ts": 1780113609166,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Bliss",
+        "action": "unloved",
+        "ts": 1780113609322,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Sharing",
+        "action": "unloved",
+        "ts": 1780113609507,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Silent Universe",
+        "action": "unloved",
+        "ts": 1780113609670,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Solar Wind",
+        "action": "unloved",
+        "ts": 1780113609840,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Stillness Speaks",
+        "action": "unloved",
+        "ts": 1780113610135,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Sunday Dreams",
+        "action": "unloved",
+        "ts": 1780113610317,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Hidden Glades",
+        "action": "unloved",
+        "ts": 1780113610521,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Grateful",
+        "action": "unloved",
+        "ts": 1780113610843,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Pacific",
+        "action": "unloved",
+        "ts": 1780113611005,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Floating Through Air",
+        "action": "unloved",
+        "ts": 1780113611166,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Learning",
+        "action": "unloved",
+        "ts": 1780113611324,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Tread Lightly",
+        "action": "unloved",
+        "ts": 1780113611488,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Awaken The Dawn",
+        "action": "unloved",
+        "ts": 1780113611645,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Time To Heal",
+        "action": "unloved",
+        "ts": 1780113611967,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Third Eye",
+        "action": "unloved",
+        "ts": 1780113612116,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Flowing Like Water",
+        "action": "unloved",
+        "ts": 1780113612304,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Drifting Off",
+        "action": "unloved",
+        "ts": 1780113612550,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Grounded in Love",
+        "action": "unloved",
+        "ts": 1780113612734,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Inner-Child",
+        "action": "unloved",
+        "ts": 1780113613016,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Wavelength",
+        "action": "unloved",
+        "ts": 1780113613172,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Balance",
+        "action": "unloved",
+        "ts": 1780113613338,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Repose",
+        "action": "unloved",
+        "ts": 1780113613506,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Astral Journey",
+        "action": "unloved",
+        "ts": 1780113613679,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Divine Intervention",
+        "action": "unloved",
+        "ts": 1780113613981,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Smooth Sailing",
+        "action": "unloved",
+        "ts": 1780113614136,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Relativity",
+        "action": "unloved",
+        "ts": 1780113614294,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Sway",
+        "action": "unloved",
+        "ts": 1780113614559,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Air About Them",
+        "action": "unloved",
+        "ts": 1780113614700,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Continuous Path",
+        "action": "unloved",
+        "ts": 1780113614869,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Empowerment",
+        "action": "unloved",
+        "ts": 1780113615034,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Mental Flexibility",
+        "action": "unloved",
+        "ts": 1780113615201,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Unwinding",
+        "action": "unloved",
+        "ts": 1780113615357,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Celestial Hush",
+        "action": "unloved",
+        "ts": 1780113615513,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Testing Your Faith",
+        "action": "unloved",
+        "ts": 1780113615665,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Moonsky",
+        "action": "unloved",
+        "ts": 1780113615819,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Saturn’s Embrace",
+        "action": "unloved",
+        "ts": 1780113616319,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Passage of Time",
+        "action": "unloved",
+        "ts": 1780113616467,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Oceanic Connectedness",
+        "action": "unloved",
+        "ts": 1780113616665,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Nightfall Glow",
+        "action": "unloved",
+        "ts": 1780113616829,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Orbit",
+        "action": "unloved",
+        "ts": 1780113617026,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Aurora",
+        "action": "unloved",
+        "ts": 1780113617197,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Forming New Relationships",
+        "action": "unloved",
+        "ts": 1780113617372,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Liquid Dance",
+        "action": "unloved",
+        "ts": 1780113617527,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Accepting Change",
+        "action": "unloved",
+        "ts": 1780113617707,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Time is Now",
+        "action": "unloved",
+        "ts": 1780113617898,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Murmur",
+        "action": "unloved",
+        "ts": 1780113618075,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "To The Sun",
+        "action": "unloved",
+        "ts": 1780113618260,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Serene Waterfalls",
+        "action": "unloved",
+        "ts": 1780113618436,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Wandering Souls",
+        "action": "unloved",
+        "ts": 1780113618620,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Let Go",
+        "action": "unloved",
+        "ts": 1780113618797,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Safe Haven",
+        "action": "unloved",
+        "ts": 1780113618951,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Evoke Calmness",
+        "action": "unloved",
+        "ts": 1780113619128,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Equanimity",
+        "action": "unloved",
+        "ts": 1780113619303,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Echoes of the Moon",
+        "action": "unloved",
+        "ts": 1780113619477,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Peaceful Heart",
+        "action": "unloved",
+        "ts": 1780113619711,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Spiritual Path",
+        "action": "unloved",
+        "ts": 1780113620117,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Attraction",
+        "action": "unloved",
+        "ts": 1780113620285,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Izmir",
+        "action": "unloved",
+        "ts": 1780113620447,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Surge",
+        "action": "unloved",
+        "ts": 1780113620611,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Giving Love",
+        "action": "unloved",
+        "ts": 1780113620773,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Universe In Harmony",
+        "action": "unloved",
+        "ts": 1780113620997,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Awakening Intuition",
+        "action": "unloved",
+        "ts": 1780113621206,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "The Beauty Of Rest",
+        "action": "unloved",
+        "ts": 1780113621398,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Balancing Emotion",
+        "action": "unloved",
+        "ts": 1780113621593,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Shimmering Dust",
+        "action": "unloved",
+        "ts": 1780113621755,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Forest Echoes",
+        "action": "unloved",
+        "ts": 1780113621918,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Unfolding Peace",
+        "action": "unloved",
+        "ts": 1780113622075,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Enhance Sleep",
+        "action": "unloved",
+        "ts": 1780113622262,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Embrace",
+        "action": "unloved",
+        "ts": 1780113622538,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Infinite Rest",
+        "action": "unloved",
+        "ts": 1780113622685,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Comfort In Silence",
+        "action": "unloved",
+        "ts": 1780113622850,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Eternal Starlight",
+        "action": "unloved",
+        "ts": 1780113623020,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Sacred Space",
+        "action": "unloved",
+        "ts": 1780113623262,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Look Up",
+        "action": "unloved",
+        "ts": 1780113623408,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Waves of Tranquility",
+        "action": "unloved",
+        "ts": 1780113623564,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Pillow Of Stars",
+        "action": "unloved",
+        "ts": 1780113623736,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Whispering Pines",
+        "action": "unloved",
+        "ts": 1780113624020,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Waves of Calm",
+        "action": "unloved",
+        "ts": 1780113624183,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Let go of Time",
+        "action": "unloved",
+        "ts": 1780113624346,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Urban Life",
+        "action": "unloved",
+        "ts": 1780113624512,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Reflecting",
+        "action": "unloved",
+        "ts": 1780113624696,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Develop Rituals",
+        "action": "unloved",
+        "ts": 1780113624847,
+        "ok": true
+      },
+      {
+        "artist": "Lono",
+        "title": "In a Cave",
+        "action": "unloved",
+        "ts": 1780113625040,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Eternal Cycle",
+        "action": "unloved",
+        "ts": 1780113625212,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Quiet The Mind",
+        "action": "unloved",
+        "ts": 1780113625371,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Organization",
+        "action": "unloved",
+        "ts": 1780113625539,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Morning Ritual",
+        "action": "unloved",
+        "ts": 1780113625735,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Cascade",
+        "action": "unloved",
+        "ts": 1780113625933,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Tough to Break",
+        "action": "unloved",
+        "ts": 1780113626083,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Restoration",
+        "action": "unloved",
+        "ts": 1780113626238,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Optimism",
+        "action": "unloved",
+        "ts": 1780113626410,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Cosmic Serenity",
+        "action": "unloved",
+        "ts": 1780113626576,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Deep Space",
+        "action": "unloved",
+        "ts": 1780113626773,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Peace",
+        "action": "unloved",
+        "ts": 1780113626935,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Changing Tides",
+        "action": "unloved",
+        "ts": 1780113627124,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Listening",
+        "action": "unloved",
+        "ts": 1780113627286,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Journaling",
+        "action": "unloved",
+        "ts": 1780113627441,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Supernatural",
+        "action": "unloved",
+        "ts": 1780113627596,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Understanding",
+        "action": "unloved",
+        "ts": 1780113627752,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Motion",
+        "action": "unloved",
+        "ts": 1780113627915,
+        "ok": true
+      },
+      {
+        "artist": "Lono",
+        "title": "Walls of Reflection",
+        "action": "unloved",
+        "ts": 1780113628067,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Simplicity",
+        "action": "unloved",
+        "ts": 1780113628233,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Restful Choir",
+        "action": "unloved",
+        "ts": 1780113628392,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Calm",
+        "action": "unloved",
+        "ts": 1780113628594,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Whispers Of The Sea",
+        "action": "unloved",
+        "ts": 1780113628753,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Opening Heart",
+        "action": "unloved",
+        "ts": 1780113628900,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Self-Awareness",
+        "action": "unloved",
+        "ts": 1780113629056,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Deep Connections",
+        "action": "unloved",
+        "ts": 1780113629232,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Try",
+        "action": "unloved",
+        "ts": 1780113629446,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Love",
+        "action": "unloved",
+        "ts": 1780113629674,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Ashes of the Night",
+        "action": "unloved",
+        "ts": 1780113629869,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Delicate Night",
+        "action": "unloved",
+        "ts": 1780113630040,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Stargaze",
+        "action": "unloved",
+        "ts": 1780113630217,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Fact Or Fiction",
+        "action": "unloved",
+        "ts": 1780113630457,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Self-Compassion",
+        "action": "unloved",
+        "ts": 1780113630623,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Evolution",
+        "action": "unloved",
+        "ts": 1780113630796,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Floating In Harmony",
+        "action": "unloved",
+        "ts": 1780113630947,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Floating in Starlight",
+        "action": "unloved",
+        "ts": 1780113631106,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Healing",
+        "action": "unloved",
+        "ts": 1780113631264,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Winter",
+        "action": "unloved",
+        "ts": 1780113631442,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Equal Attention",
+        "action": "unloved",
+        "ts": 1780113631590,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Ethereal Tides",
+        "action": "unloved",
+        "ts": 1780113631776,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Reverie",
+        "action": "unloved",
+        "ts": 1780113631946,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Academic Success",
+        "action": "unloved",
+        "ts": 1780113632181,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Personal Growth",
+        "action": "unloved",
+        "ts": 1780113632343,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Make Your Case",
+        "action": "unloved",
+        "ts": 1780113632496,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Intuitive Problem Solving",
+        "action": "unloved",
+        "ts": 1780113632726,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Laws of Nature",
+        "action": "unloved",
+        "ts": 1780113632890,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Practice Acceptance",
+        "action": "unloved",
+        "ts": 1780113633054,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Nesting",
+        "action": "unloved",
+        "ts": 1780113633224,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Kindness",
+        "action": "unloved",
+        "ts": 1780113633527,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Never Leaving",
+        "action": "unloved",
+        "ts": 1780113633704,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Loving-Kindness",
+        "action": "unloved",
+        "ts": 1780113633868,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Galactic Dreams",
+        "action": "unloved",
+        "ts": 1780113634052,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Looking Within",
+        "action": "unloved",
+        "ts": 1780113634203,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "A Reason",
+        "action": "unloved",
+        "ts": 1780113634365,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Ripples of Tranquillity",
+        "action": "unloved",
+        "ts": 1780113634531,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Dreaming by the Fire",
+        "action": "unloved",
+        "ts": 1780113634681,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Fragments",
+        "action": "unloved",
+        "ts": 1780113634835,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Deep Stillness",
+        "action": "unloved",
+        "ts": 1780113634996,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Ease In",
+        "action": "unloved",
+        "ts": 1780113635162,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Submerged",
+        "action": "unloved",
+        "ts": 1780113635324,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Boundaries of Peace",
+        "action": "unloved",
+        "ts": 1780113635504,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "A Place to Stay",
+        "action": "unloved",
+        "ts": 1780113635657,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Comfort In Silence",
+        "action": "unloved",
+        "ts": 1780113635834,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Silence",
+        "action": "unloved",
+        "ts": 1780113636002,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Far From Home",
+        "action": "unloved",
+        "ts": 1780113636195,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Falling Through Time",
+        "action": "unloved",
+        "ts": 1780113636357,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Echoes in the Wind",
+        "action": "unloved",
+        "ts": 1780113636508,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "The Anxious Mind",
+        "action": "unloved",
+        "ts": 1780113636685,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Tranquility",
+        "action": "unloved",
+        "ts": 1780113636850,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Self-Improvement",
+        "action": "unloved",
+        "ts": 1780113636999,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Echoes Of The Night",
+        "action": "unloved",
+        "ts": 1780113637188,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Conflict Resolution",
+        "action": "unloved",
+        "ts": 1780113637362,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "The Spirit Molecule",
+        "action": "unloved",
+        "ts": 1780113637533,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Fluttering",
+        "action": "unloved",
+        "ts": 1780113637731,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Blue World",
+        "action": "unloved",
+        "ts": 1780113638194,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Dancing Dreams",
+        "action": "unloved",
+        "ts": 1780113638346,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Relaxation",
+        "action": "unloved",
+        "ts": 1780113638539,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Meditation",
+        "action": "unloved",
+        "ts": 1780113638702,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "A Beautiful Night",
+        "action": "unloved",
+        "ts": 1780113638902,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "Stable Mind",
+        "action": "unloved",
+        "ts": 1780113639056,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Awaken Your Spiritual Self",
+        "action": "unloved",
+        "ts": 1780113639209,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "The Calm War",
+        "action": "unloved",
+        "ts": 1780113639387,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Receiving Love",
+        "action": "unloved",
+        "ts": 1780113639594,
+        "ok": true
+      },
+      {
+        "artist": "Rola Young",
+        "title": "Equinox",
+        "action": "unloved",
+        "ts": 1780113639751,
+        "ok": true
+      },
+      {
+        "artist": "Friede",
+        "title": "The 7th Quadrant",
+        "action": "unloved",
+        "ts": 1780113639912,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Celestial Shores",
+        "action": "unloved",
+        "ts": 1780113640223,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Stress Relief",
+        "action": "unloved",
+        "ts": 1780113640470,
+        "ok": true
+      },
+      {
+        "artist": "Dan Kraus",
+        "title": "Finding Joy",
+        "action": "unloved",
+        "ts": 1780113640636,
+        "ok": true
+      }
+    ]
+  },
+  {
+    "date": "2026-05-29T22:00:01.058Z",
+    "total": 1,
+    "ok": 1,
+    "results": [
+      {
+        "artist": "Dan Kraus",
+        "title": "Finding Joy",
+        "action": "unloved",
+        "ts": 1780092005029,
+        "ok": true
+      }
+    ]
+  },
+  {
+    "date": "2026-05-29T16:00:00.773Z",
+    "total": 0,
+    "ok": 0,
+    "results": []
+  },
+  {
+    "date": "2026-05-29T11:00:41.146Z",
+    "total": 28,
+    "ok": 28,
+    "results": [
+      {
+        "artist": "Paco",
+        "title": "Nomad",
+        "action": "unloved",
+        "ts": 1780052444064,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Far From Home",
+        "action": "unloved",
+        "ts": 1780052444220,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Black Hole",
+        "action": "unloved",
+        "ts": 1780052444416,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Solare Flare",
+        "action": "unloved",
+        "ts": 1780052444587,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Aurora",
+        "action": "unloved",
+        "ts": 1780052444740,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Izmir",
+        "action": "unloved",
+        "ts": 1780052445162,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Far From Home",
+        "action": "unloved",
+        "ts": 1780052445315,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Black Hole",
+        "action": "unloved",
+        "ts": 1780052445626,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Solare Flare",
+        "action": "unloved",
+        "ts": 1780052445799,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Aurora",
+        "action": "unloved",
+        "ts": 1780052446404,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Izmir",
+        "action": "unloved",
+        "ts": 1780052446648,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Urban Life",
+        "action": "unloved",
+        "ts": 1780052446814,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Aurora",
+        "action": "unloved",
+        "ts": 1780052446974,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Izmir",
+        "action": "unloved",
+        "ts": 1780052447182,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Solare Flare",
+        "action": "unloved",
+        "ts": 1780052447348,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Solare Flare",
+        "action": "unloved",
+        "ts": 1780052447520,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Izmir",
+        "action": "unloved",
+        "ts": 1780052447677,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Nomad",
+        "action": "unloved",
+        "ts": 1780052447987,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Aurora",
+        "action": "unloved",
+        "ts": 1780052448171,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Urban Life",
+        "action": "unloved",
+        "ts": 1780052448355,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Black Hole",
+        "action": "unloved",
+        "ts": 1780052448530,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Nomad",
+        "action": "unloved",
+        "ts": 1780052448690,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Solare Flare",
+        "action": "unloved",
+        "ts": 1780052448860,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Urban Life",
+        "action": "unloved",
+        "ts": 1780052449026,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Black Hole",
+        "action": "unloved",
+        "ts": 1780052449187,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Urban Life",
+        "action": "unloved",
+        "ts": 1780052449346,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Solare Flare",
+        "action": "unloved",
+        "ts": 1780052449507,
+        "ok": true
+      },
+      {
+        "artist": "Paco",
+        "title": "Nomad",
+        "action": "unloved",
+        "ts": 1780052449664,
+        "ok": true
+      }
+    ]
+  }
+]
