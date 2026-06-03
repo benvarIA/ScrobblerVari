@@ -49,20 +49,6 @@
   },
   {
     "type": "artist",
-    "artist": "GabrielGeoo",
-    "source": "manual",
-    "id": "e3af61ee-05b1-4ed2-acd6-8736d8c7af70",
-    "addedAt": "2026-05-29T13:44:35.316Z"
-  },
-  {
-    "type": "artist",
-    "artist": "nateflix",
-    "source": "manual",
-    "id": "279fa93a-9f98-4e0e-b586-6f97e2d0f728",
-    "addedAt": "2026-05-29T13:45:25.677Z"
-  },
-  {
-    "type": "artist",
     "artist": "Fiouze",
     "source": "manual",
     "id": "df435e20-c180-4be0-9372-f787f1457846",
@@ -81,19 +67,5 @@
     "source": "manual",
     "id": "337ad40f-16ac-449f-b6ca-79389e7e129b",
     "addedAt": "2026-05-29T14:02:07.897Z"
-  },
-  {
-    "type": "artist",
-    "artist": "Underscore_",
-    "source": "manual",
-    "id": "f8307105-2f25-440f-b8ff-01b3657362b7",
-    "addedAt": "2026-05-29T15:08:14.068Z"
-  },
-  {
-    "type": "artist",
-    "artist": "Underscore",
-    "source": "manual",
-    "id": "afba3476-ca37-4b6f-a386-e00bdb09e946",
-    "addedAt": "2026-05-29T15:08:22.715Z"
   }
 ]

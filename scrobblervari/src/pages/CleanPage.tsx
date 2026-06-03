@@ -6,6 +6,7 @@ import {
   importSpotifyPlaylist, type BlacklistEntry,
 } from '../services/blacklist'
 import { searchArtists, type ArtistSuggestion } from '../services/lastfm'
+import { useFetch } from '../hooks/useFetch'
 
 interface DeleteJob {
   status: 'idle' | 'starting' | 'authenticating' | 'waiting_login' | 'deleting' | 'done' | 'error'
@@ -147,29 +148,33 @@ export default function CleanPage() {
   const [selected, setSelected] = useState<Set<string>>(new Set())
   const [isImporting, setIsImporting] = useState(false)
   const [spotifyConnected, setSpotifyConnected] = useState(false)
-  const [spotifyPlaylists, setSpotifyPlaylists] = useState<{ id: string; name: string; tracks: number | null; image: string | null }[]>([])
-  const [isLoadingPlaylists, setIsLoadingPlaylists] = useState(false)
   const [deleteJob, setDeleteJob] = useState<DeleteJob>({ status: 'idle' })
+
+  type Playlist = { id: string; name: string; tracks: number | null; image: string | null }
+  const fetchPlaylists = useCallback(async (): Promise<Playlist[]> => {
+    const res = await fetch('/api/spotify/playlists')
+    const json = await res.json()
+    if (json.error === 'not_connected') { setSpotifyConnected(false); return [] }
+    if (json.error) throw new Error(json.error)
+    return json.playlists
+  }, [])
+
+  const {
+    data: fetchedPlaylists,
+    loading: isLoadingPlaylists,
+    execute: loadPlaylists,
+  } = useFetch(fetchPlaylists)
+  const spotifyPlaylists = fetchedPlaylists ?? []
+
+  const loadSpotifyPlaylists = useCallback(async () => {
+    const result = await loadPlaylists()
+    if (result.error) show(result.error, false)
+  }, [loadPlaylists, show])
 
   const artists = blacklist.filter(e => e.type === 'artist')
   const isDeleteActive = !['idle', 'done', 'error'].includes(deleteJob.status)
   const allSelected = artists.length > 0 && selected.size === artists.length
   const someSelected = selected.size > 0 && !allSelected
-
-  const loadSpotifyPlaylists = useCallback(async () => {
-    setIsLoadingPlaylists(true)
-    try {
-      const res = await fetch('/api/spotify/playlists')
-      const data = await res.json()
-      if (data.error === 'not_connected') { setSpotifyConnected(false); return }
-      if (data.error) { show(data.error, false); return }
-      setSpotifyPlaylists(data.playlists)
-    } catch (e: any) {
-      show(e.message, false)
-    } finally {
-      setIsLoadingPlaylists(false)
-    }
-  }, [show])
 
   useEffect(() => {
     fetchBlacklist().then(setBlacklist).catch(() => show('Erreur chargement blacklist', false))

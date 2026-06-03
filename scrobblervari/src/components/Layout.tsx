@@ -3,6 +3,8 @@ import { useAuth } from '../contexts/AuthContext'
 import { Button } from './ui/button'
 import { Sidebar, BottomNav } from './Nav'
 import { ErrorBoundary } from './ErrorBoundary'
+import { useTheme } from '../hooks/useTheme'
+import { Moon, Sun } from 'lucide-react'
 
 function getAvatar(user: ReturnType<typeof useAuth>['user']): string | null {
   if (!user) return null
@@ -12,6 +14,7 @@ function getAvatar(user: ReturnType<typeof useAuth>['user']): string | null {
 
 export default function Layout() {
   const { sessionKey, username, user, logout, isLoading } = useAuth()
+  const { theme, toggle } = useTheme()
 
   if (!sessionKey) return <Navigate to="/login" replace />
 
@@ -21,6 +24,9 @@ export default function Layout() {
         <span className="text-lg font-semibold tracking-tight">ScrobblerVari</span>
 
         <div className="flex items-center gap-3">
+          <Button variant="ghost" size="icon" onClick={toggle} aria-label="Basculer le thème">
+            {theme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+          </Button>
           {isLoading ? (
             <div className="h-8 w-32 rounded bg-muted animate-pulse" />
           ) : (
