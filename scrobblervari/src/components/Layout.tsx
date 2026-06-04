@@ -21,7 +21,9 @@ export default function Layout() {
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
       <header className="sticky top-0 z-10 border-b border-border bg-background/95 backdrop-blur-sm px-4 py-3 flex items-center justify-between">
-        <span className="text-lg font-semibold tracking-tight">ScrobblerVari</span>
+        <span className="text-lg font-bold tracking-tight">
+          <span className="text-primary">Scrobbler</span>Vari
+        </span>
 
         <div className="flex items-center gap-3">
           <Button variant="ghost" size="icon" onClick={toggle} aria-label="Basculer le thème">
