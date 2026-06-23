@@ -127,6 +127,47 @@ export async function searchArtists(query: string, limit = 6): Promise<ArtistSug
   return arr.map((a: any) => ({ name: a.name, listeners: Number(a.listeners) || 0 }))
 }
 
+export interface AlbumSearchResult {
+  name: string
+  artist: string
+  image: string
+}
+
+export interface AlbumTrack {
+  title: string
+  duration?: number
+  position: number
+}
+
+export async function searchAlbums(query: string, limit = 8): Promise<AlbumSearchResult[]> {
+  if (!query.trim()) return []
+  const data = await apiFetch<any>({ method: 'album.search', album: query, limit: String(limit) })
+  const matches = data.results?.albummatches?.album
+  if (!matches) return []
+  const arr = Array.isArray(matches) ? matches : [matches]
+  return arr
+    .filter((a: any) => a.name && a.artist && a.artist !== '(null)')
+    .map((a: any) => ({
+      name: a.name,
+      artist: a.artist,
+      image: a.image?.find((i: any) => i.size === 'large')?.['#text'] ?? '',
+    }))
+}
+
+export async function getAlbumInfo(album: string, artist: string): Promise<{ tracks: AlbumTrack[]; image: string }> {
+  const data = await apiFetch<any>({ method: 'album.getInfo', album, artist })
+  const rawTracks = data.album?.tracks?.track
+  const arr = Array.isArray(rawTracks) ? rawTracks : rawTracks ? [rawTracks] : []
+  return {
+    image: data.album?.image?.find((i: any) => i.size === 'large')?.['#text'] ?? '',
+    tracks: arr.map((t: any, idx: number) => ({
+      title: t.name,
+      duration: t.duration ? Number(t.duration) : undefined,
+      position: Number(t['@attr']?.rank ?? idx + 1),
+    })),
+  }
+}
+
 export async function unloveTrack(
   artist: string,
   track: string,

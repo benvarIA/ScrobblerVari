@@ -43,29 +43,14 @@
     "type": "artist",
     "artist": "Patrick Bruel",
     "source": "manual",
-    "id": "479f9255-8d37-4ae1-b056-398f6ddc5e81",
-    "addedAt": "2026-05-29T12:31:40.067Z",
-    "lastScannedAt": "2026-05-29T13:28:25.509Z"
-  },
-  {
-    "type": "artist",
-    "artist": "Fiouze",
-    "source": "manual",
-    "id": "df435e20-c180-4be0-9372-f787f1457846",
-    "addedAt": "2026-05-29T13:49:35.635Z"
+    "id": "8989adee-4658-4b87-b2d8-13123bc5d0f9",
+    "addedAt": "2026-06-21T12:04:32.419Z"
   },
   {
     "type": "artist",
     "artist": "Noir Désir",
     "source": "manual",
-    "id": "2c7a86fe-165d-4cb2-8d8a-f9cc89b68d62",
-    "addedAt": "2026-05-29T14:01:55.888Z"
-  },
-  {
-    "type": "artist",
-    "artist": "Noir Desir",
-    "source": "manual",
-    "id": "337ad40f-16ac-449f-b6ca-79389e7e129b",
-    "addedAt": "2026-05-29T14:02:07.897Z"
+    "id": "0608f324-349d-4eda-a53f-cab546dc4d3e",
+    "addedAt": "2026-06-21T12:05:01.069Z"
   }
 ]

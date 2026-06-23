@@ -9,6 +9,44 @@ const DATA_DIR = path.resolve(process.cwd(), 'data')
 const BLACKLIST_FILE = path.join(DATA_DIR, 'blacklist.json')
 const LOG_FILE = path.join(DATA_DIR, 'clean-log.json')
 const SPOTIFY_TOKEN_FILE = path.join(DATA_DIR, 'spotify-token.json')
+const VINYL_QUEUE_FILE = path.join(DATA_DIR, 'vinyl-queue.json')
+const COVERS_CACHE_FILE = path.join(DATA_DIR, 'covers-cache.json')
+
+interface VinylTrack {
+  title: string
+  duration?: number
+  status: 'pending' | 'done' | 'error'
+  scrobbleAt?: number   // unix seconds — heure planifiée du scrobble
+  scrobbledAt?: number  // unix seconds — heure réelle du scrobble
+  error?: string
+}
+
+interface VinylQueueItem {
+  id: string
+  artist: string
+  album: string
+  image: string
+  tracks: VinylTrack[]
+  status: 'active' | 'done' | 'cancelled'
+  addedAt: string
+}
+
+// Intervalle aléatoire entre deux pistes (secondes)
+function gap() { return 20 + Math.floor(Math.random() * 21) }
+
+// Planifie les pistes en attente d'un album à partir de `startAt` (unix s).
+// Renvoie l'horaire de la dernière piste planifiée (= queue de file).
+function scheduleTracks(tracks: VinylTrack[], startAt: number): number {
+  let cursor = startAt
+  let first = true
+  for (const track of tracks) {
+    if (track.status === 'done') continue
+    if (!first) cursor += gap()
+    track.scrobbleAt = cursor
+    first = false
+  }
+  return cursor
+}
 
 function readJSON<T>(file: string, fallback: T): T {
   try { return JSON.parse(fs.readFileSync(file, 'utf-8')) as T } catch { return fallback }
@@ -51,6 +89,117 @@ export function apiPlugin(env: Record<string, string> = {}): Plugin {
       const clientSecret = env.VITE_SPOTIFY_CLIENT_SECRET
       const port = env.PORT ?? '3008'
       const SPOTIFY_CALLBACK = env.SPOTIFY_CALLBACK_URL ?? `https://localhost:${port}/api/spotify/callback`
+
+      // ── Vinyl Queue ──────────────────────────────────────────────────────────
+      const lfmApiKey = env.VITE_LASTFM_API_KEY ?? ''
+      const lfmSecret = env.VITE_LASTFM_SECRET ?? ''
+      let vinylItems = readJSON<VinylQueueItem[]>(VINYL_QUEUE_FILE, [])
+
+      // Couvertures d'albums (cache Last.fm) : "artist|||album" → URL image
+      let coversCache: Record<string, string> = readJSON(COVERS_CACHE_FILE, {})
+      function saveCoversCache() { writeJSON(COVERS_CACHE_FILE, coversCache) }
+      function coverKey(artist: string, album: string) { return `${artist.toLowerCase()}|||${album.toLowerCase()}` }
+
+      function saveVinylItems() { writeJSON(VINYL_QUEUE_FILE, vinylItems) }
+
+      // Horaire de départ pour un nouvel album = après la dernière piste déjà planifiée
+      function nextStart(): number {
+        let tail = Math.floor(Date.now() / 1000) + 5
+        for (const item of vinylItems) {
+          if (item.status !== 'active') continue
+          for (const t of item.tracks) {
+            if (t.status === 'pending' && t.scrobbleAt) tail = Math.max(tail, t.scrobbleAt + gap())
+          }
+        }
+        return tail
+      }
+
+      function lfmSig(params: Record<string, string>): string {
+        const str = Object.keys(params).sort().map(k => k + params[k]).join('') + lfmSecret
+        return crypto.createHash('md5').update(str).digest('hex')
+      }
+
+      async function scrobbleOne(artist: string, track: string, album: string, timestamp: number, sk: string) {
+        const p: Record<string, string> = {
+          api_key: lfmApiKey, artist, track, album,
+          timestamp: String(timestamp), method: 'track.scrobble', sk,
+        }
+        const body = new URLSearchParams({ ...p, api_sig: lfmSig(p), format: 'json' })
+        const r = await fetch('https://ws.audioscrobbler.com/2.0/', { method: 'POST', body })
+        const d = await r.json() as any
+        if (d.error) throw new Error(`Last.fm ${d.error}: ${d.message}`)
+      }
+
+      async function fetchAlbumTracksFromLfm(album: string, artist: string): Promise<{ title: string; duration?: number }[]> {
+        const url = new URL('https://ws.audioscrobbler.com/2.0/')
+        url.searchParams.set('method', 'album.getInfo')
+        url.searchParams.set('album', album)
+        url.searchParams.set('artist', artist)
+        url.searchParams.set('api_key', lfmApiKey)
+        url.searchParams.set('format', 'json')
+        const r = await fetch(url.toString())
+        const d = await r.json() as any
+        if (d.error) return []
+        const raw = d.album?.tracks?.track
+        const arr = Array.isArray(raw) ? raw : raw ? [raw] : []
+        return arr.map((t: any) => ({ title: t.name, duration: t.duration ? Number(t.duration) : undefined }))
+      }
+
+      async function fetchAlbumCover(album: string, artist: string): Promise<string> {
+        try {
+          const url = new URL('https://ws.audioscrobbler.com/2.0/')
+          url.searchParams.set('method', 'album.getInfo')
+          url.searchParams.set('album', album)
+          url.searchParams.set('artist', artist)
+          url.searchParams.set('api_key', lfmApiKey)
+          url.searchParams.set('format', 'json')
+          const r = await fetch(url.toString())
+          const d = await r.json() as any
+          if (d.error) return ''
+          const imgs: Array<{ size: string; '#text': string }> = d.album?.image ?? []
+          for (const size of ['extralarge', 'mega', 'large', 'medium']) {
+            const hit = imgs.find(i => i.size === size)
+            if (hit?.['#text']) return hit['#text']
+          }
+        } catch {}
+        return ''
+      }
+
+      // Planificateur : à chaque tick, scrobble les pistes dont l'heure est arrivée
+      let ticking = false
+      async function tick() {
+        if (ticking) return
+        ticking = true
+        try {
+          const now = Math.floor(Date.now() / 1000)
+          let changed = false
+          for (const item of vinylItems) {
+            if (item.status !== 'active') continue
+            const session = readJSON<{ sessionKey?: string }>(path.join(DATA_DIR, 'lastfm-session.json'), {})
+            for (const track of item.tracks) {
+              if (track.status !== 'pending' || !track.scrobbleAt || track.scrobbleAt > now) continue
+              if (!session.sessionKey) break // pas connecté : on réessaiera au prochain tick
+              try {
+                await scrobbleOne(item.artist, track.title, item.album, track.scrobbleAt, session.sessionKey)
+                track.status = 'done'
+                track.scrobbledAt = Math.floor(Date.now() / 1000)
+              } catch (e: any) {
+                track.status = 'error'
+                track.error = e.message
+              }
+              changed = true
+            }
+            if (item.tracks.every(t => t.status === 'done' || t.status === 'error')) {
+              item.status = 'done'
+              changed = true
+            }
+          }
+          if (changed) saveVinylItems()
+        } finally {
+          ticking = false
+        }
+      }
+      // ─────────────────────────────────────────────────────────────────────────
 
       // Load persisted token from disk on startup
       let tokenStore = readJSON<SpotifyTokenStore | null>(SPOTIFY_TOKEN_FILE, null)
@@ -304,10 +453,164 @@ export function apiPlugin(env: Record<string, string> = {}): Plugin {
           }
         }
 
+        // ── Vinyl Queue ──────────────────────────────────────────────────────────
+        if (url.startsWith('/api/vinyl/') && method === 'OPTIONS') {
+          res.setHeader('Access-Control-Allow-Origin', '*')
+          res.setHeader('Access-Control-Allow-Methods', 'GET, POST, DELETE, OPTIONS')
+          res.setHeader('Access-Control-Allow-Headers', 'Content-Type')
+          res.statusCode = 204
+          return res.end()
+        }
+
+        if (url === '/api/vinyl/queue' && method === 'GET') {
+          res.setHeader('Access-Control-Allow-Origin', '*')
+          return json(res, vinylItems)
+        }
+
+        if (url === '/api/vinyl/queue' && method === 'POST') {
+          res.setHeader('Access-Control-Allow-Origin', '*')
+          let body: any = {}
+          try { body = JSON.parse(await readBody(req)) } catch {}
+          const { artist, album, image, tracks: inputTracks } = body
+          if (!artist || !album) return json(res, { error: 'artist et album requis' }, 400)
+
+          // Anti-doublon : même album déjà en cours dans la file → on renvoie l'existant
+          const dup = vinylItems.find(i =>
+            i.status === 'active' &&
+            i.artist.toLowerCase() === String(artist).toLowerCase() &&
+            i.album.toLowerCase() === String(album).toLowerCase()
+          )
+          if (dup) {
+            res.setHeader('Access-Control-Allow-Origin', '*')
+            const finishAt = dup.tracks[dup.tracks.length - 1]?.scrobbleAt
+            return json(res, { ...dup, finishAt, duplicate: true }, 200)
+          }
+
+          let tracks: VinylTrack[]
+          if (Array.isArray(inputTracks) && inputTracks.length) {
+            tracks = inputTracks.map((t: any) => ({
+              title: String(t.title ?? ''),
+              duration: t.duration ? Number(t.duration) : undefined,
+              status: 'pending' as const,
+            }))
+          } else {
+            const fetched = await fetchAlbumTracksFromLfm(album, artist)
+            if (!fetched.length) return json(res, { error: 'Aucune piste trouvée pour cet album' }, 404)
+            tracks = fetched.map(t => ({ title: t.title, duration: t.duration, status: 'pending' as const }))
+          }
+
+          scheduleTracks(tracks, nextStart())
+          const item: VinylQueueItem = {
+            id: crypto.randomUUID(),
+            artist,
+            album,
+            image: image ?? '',
+            tracks,
+            status: 'active',
+            addedAt: new Date().toISOString(),
+          }
+          vinylItems.push(item)
+          saveVinylItems()
+          tick()
+          const finishAt = tracks[tracks.length - 1]?.scrobbleAt
+          return json(res, { ...item, finishAt }, 201)
+        }
+
+        if (url.startsWith('/api/vinyl/queue/') && method === 'DELETE') {
+          res.setHeader('Access-Control-Allow-Origin', '*')
+          const id = url.replace('/api/vinyl/queue/', '')
+          const item = vinylItems.find(i => i.id === id)
+          if (!item) return json(res, { error: 'Not found' }, 404)
+          item.status = 'cancelled'
+          saveVinylItems()
+          return json(res, { ok: true })
+        }
+
+        // Proxy collection musicale Biblianalo (contourne le blocage mixed-content https→http)
+        if (url === '/api/biblianalo/albums' && method === 'GET') {
+          const base = env.BIBLIANALO_API_URL ?? 'http://localhost:8002/api'
+          try {
+            const r = await fetch(`${base}/items?type=music`)
+            if (!r.ok) return json(res, { error: `Biblianalo a répondu ${r.status}` }, 502)
+            const items = await r.json() as any[]
+            const albums = items.map(it => {
+              const artist = it.artist_or_director ?? ''
+              const album = it.title ?? ''
+              return {
+                id: it.id,
+                artist,
+                album,
+                image: it.cover_url || coversCache[coverKey(artist, album)] || '',
+                support: it.support ?? null,
+                year: it.year ?? null,
+                tracks: (Array.isArray(it.tracklist) ? it.tracklist : [])
+                  .filter((t: any) => t?.title)
+                  .map((t: any) => ({ title: t.title, duration: t.length_sec ?? undefined })),
+              }
+            })
+            // Fetch and cache any missing covers in the background
+            const toFetch = albums.filter(a => !a.image && coversCache[coverKey(a.artist, a.album)] === undefined)
+            if (toFetch.length) {
+              ;(async () => {
+                for (const a of toFetch) {
+                  coversCache[coverKey(a.artist, a.album)] = await fetchAlbumCover(a.album, a.artist)
+                  await new Promise(r => setTimeout(r, 250))
+                }
+                saveCoversCache()
+              })().catch(() => {})
+            }
+            return json(res, albums)
+          } catch {
+            return json(res, { error: 'Biblianalo injoignable (le serveur tourne-t-il sur :8002 ?)' }, 502)
+          }
+        }
+        // ─────────────────────────────────────────────────────────────────────────
+
         next()
       }
 
       server.middlewares.use(handler)
+
+      // Reprise après redémarrage : replanifie séquentiellement toute la file active
+      // depuis maintenant (évite tout envoi groupé des pistes en retard).
+      {
+        let cursor = Math.floor(Date.now() / 1000) + 5
+        let resumeChanged = false
+        for (const item of vinylItems) {
+          if (item.status !== 'active') continue
+          if (item.tracks.some(t => t.status === 'pending')) {
+            cursor = scheduleTracks(item.tracks, cursor) + gap()
+            resumeChanged = true
+          }
+        }
+        if (resumeChanged) saveVinylItems()
+      }
+
+      // Planificateur global : un tick toutes les 5s
+      setInterval(tick, 5000)
+      tick()
+
+      // Pré-charge les couvertures d'albums Biblianalo depuis Last.fm au démarrage
+      ;(async () => {
+        try {
+          const base = env.BIBLIANALO_API_URL ?? 'http://localhost:8002/api'
+          const r = await fetch(`${base}/items?type=music`)
+          if (!r.ok) return
+          const items = await r.json() as any[]
+          let saved = false
+          for (const it of items) {
+            const artist = String(it.artist_or_director ?? '')
+            const album = String(it.title ?? '')
+            if (!artist || !album) continue
+            const key = coverKey(artist, album)
+            if (coversCache[key] !== undefined) continue
+            coversCache[key] = await fetchAlbumCover(album, artist)
+            saved = true
+            await new Promise(r => setTimeout(r, 250))
+          }
+          if (saved) saveCoversCache()
+        } catch {}
+      })()
     },
   }
 }

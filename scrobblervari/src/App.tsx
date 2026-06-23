@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { AuthProvider } from './contexts/AuthContext'
+import { FeedbackWidget } from './components/FeedbackWidget'
 import Layout from './components/Layout'
 import LoginPage from './pages/LoginPage'
 import CallbackPage from './pages/CallbackPage'
@@ -26,6 +27,10 @@ export default function App() {
           </Route>
         </Routes>
       </AuthProvider>
+      <FeedbackWidget
+        apiKey={import.meta.env.VITE_AMELIORATOR_API_KEY}
+        amelioratorUrl={import.meta.env.VITE_AMELIORATOR_URL}
+      />
     </BrowserRouter>
   )
 }
